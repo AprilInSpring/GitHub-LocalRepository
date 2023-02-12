@@ -1,0 +1,10 @@
+eureka:
+ client:
+   service-url:
+     defaultZone: http://192.168.66.100:8761/eureka/
+ instance:
+   prefer-ip-address: true
+livegoods:
+ banner:
+   nginx:
+     prefix: http://192.168.66.100:8888
